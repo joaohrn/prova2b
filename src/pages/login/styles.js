@@ -19,5 +19,9 @@ export const styles = StyleSheet.create({
     botao : {
         backgroundColor: '#2133bb',
         padding: '5px'
+    },
+    links : {
+      fontSize: '0.8em',
+      color: "#3950e5"
     }
 })

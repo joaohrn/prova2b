@@ -6,6 +6,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Login from "./src/pages/login/script";
 import Registro from "./src/pages/registro/scripts";
 import Forgot from "./src/pages/forgot/scripts";
+import Recuperacao from "./src/pages/recuperacao/scripts";
 
 export default function App() {
 
@@ -16,7 +17,8 @@ export default function App() {
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Registro" component={Registro} />
-        <Stack.Screen name="Forgot" component={Forgot} />
+        <Stack.Screen name="Esqueci minha senha" component={Forgot} />
+        <Stack.Screen name="Recuperação de senha" component={Recuperacao} />
         <Stack.Screen name="Loja" component={Loja} />
       </Stack.Navigator>
     </NavigationContainer>
